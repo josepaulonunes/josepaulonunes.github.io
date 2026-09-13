@@ -11,7 +11,7 @@
 
     <p style="margin: 20px 0 0 0; font-size: 15px;">
       <a href="mailto:josepnunes3@gmail.com" style="margin-right: 25px; text-decoration: none; color: #2a6496;"><i class="fa-solid fa-envelope"></i> josepnunes3@gmail.com</a>
-      <a href="/Jose_Nunes.pdf" style="margin-right: 25px; text-decoration: none; color: #2a6496;"><i class="fa-regular fa-file-lines"></i> Curriculum Vitae</a>
+      <a href="/Jose_Nunes.pdf" style="margin-right: 25px; text-decoration: none; color: #2a6496;"><i class="fa-solid fa-file-lines"></i> Curriculum Vitae</a>
       <a href="https://linkedin.com/in/josepnunes/" style="text-decoration: none; color: #2a6496;"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </p>
   </div>
@@ -47,7 +47,4 @@ My contribution: responsible for the results, robustness checks, and R code (inc
 <details markdown="1">
 <summary>Abstract</summary>
 
-Evaluating Germany's tuition reforms as a natural experiment, this paper examines the economic and distributional impacts of higher university fees. The evidence reveals significant drops in enrollment and shifts in application behavior. Applying public economic theory, including efficiency, price elasticity, and equity, the study demonstrates that higher fees yield substantial social costs, making a strong case for public funding to preserve access and capture broader human capital externalities.
-
-Grade: 18/20
-</details>
+Evaluating Germany's tuition
