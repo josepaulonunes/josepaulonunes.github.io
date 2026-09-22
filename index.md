@@ -21,7 +21,7 @@ title: José Nunes
 </div>
 
 <p class="blurb">
-I'm an economist intern at ERSE, Portugal's energy sector regulator, working on Regulatory Impact Assessments across electricity, natural gas, fuels, and electric mobility. My interests are in industrial organization, macroeconomics, and finance. You can contact me at <a href="mailto:josepnunes3@gmail.com">josepnunes3@gmail.com</a>.
+I'm an economist intern at ERSE, Portugal's energy sector regulator, working on regulatory impact assessments and economic analysis across electricity, natural gas, fuels, and electric mobility. My interests are in industrial organization, macroeconomics, and finance. You can contact me at <a href="mailto:josepnunes3@gmail.com">josepnunes3@gmail.com</a>.
 </p>
 
 <h2>Academic Projects</h2>
