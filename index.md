@@ -61,7 +61,7 @@ This study investigates the extent to which socioeconomic and structural factors
 </li>
 
 <li>
-<a href="/Tuition_Fee_Reform.pdf"><strong>"Tuition Fee Reform Policy Recommendation"</strong></a>
+<a href="/Tuition_Fee_Reform.pdf"><strong>"Tuition Fee Reform: Policy Recommendation"</strong></a>
 <span class="clickable-paper"> [Abstract] </span>
 <div class="abstract">
 This paper examines the efficiency and equity impacts of higher education tuition fees, drawing on evidence from Germany's 2007 university fee reforms. Using key public economics concepts like positive externalities, Pigouvian subsidies, optimal taxation, and welfare theory, it shows that shifting costs onto students triggers severe market failures. The evidence reveals that even small fees drop overall enrollment, alter student mobility, and place an unfair burden on low income families.
