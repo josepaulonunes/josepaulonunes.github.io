@@ -16,26 +16,12 @@ title: José Nunes
       <p>Lisbon, Portugal</p>
     </div>
 
-    <div class="contact-links">
-      <a href="mailto:josepnunes3@gmail.com">
-        <i class="fa-solid fa-envelope"></i> josepnunes3@gmail.com
-      </a>
-
-      <a href="/Jose_Nunes.pdf">
-        <i class="fa-solid fa-file-lines"></i> Curriculum Vitae
-      </a>
-
-      <a href="https://linkedin.com/in/josepnunes/">
-        <i class="fa-brands fa-linkedin"></i> LinkedIn
-      </a>
-    </div>
-
   </div>
 
 </div>
 
 <p class="blurb">
-I'm an economist intern at ERSE, Portugal's energy sector regulator, working on Regulatory Impact Assessments across electricity, natural gas, fuels, and electric mobility. My interests include industrial organization, competition policy, and macroeconomics. This site is where I share the research and projects I’ve been working on.
+I'm an economist intern at ERSE, Portugal's energy sector regulator, working on Regulatory Impact Assessments across electricity, natural gas, fuels, and electric mobility. My interests include industrial organization, competition policy, and macroeconomics. This site is where I share the research and projects I’ve been working on. You can contact me at <a href="mailto:josepnunes3@gmail.com">josepnunes3@gmail.com</a>.
 </p>
 
 <h2>Projects</h2>
