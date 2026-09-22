@@ -35,9 +35,7 @@ title: José Nunes
 </div>
 
 <p class="blurb">
-  Welcome! I am an intern at the Portuguese Energy Sector Regulator (ERSE)
-  with interests in development economics, public policy, industrial
-  organization, and economic regulation.
+I'm an economist intern at ERSE, Portugal's energy sector regulator, working on Regulatory Impact Assessments across electricity, gas, fuel, and electric mobility. I'm interested in industrial organization, competition policy, and macroeconomics, and I'm working on a few independent data projects to sharpen my programming and put my econometrics to use outside of coursework.
 </p>
 
 <h2>Projects</h2>
