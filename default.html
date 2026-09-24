@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="José Nunes — economist working on macroeconomics, finance and industrial organization. Data projects, academic work and CV.">
+
+  <!-- Preview card when the link is shared (LinkedIn, WhatsApp, etc.) -->
+  <meta property="og:title" content="José Nunes">
+  <meta property="og:description" content="Economics · Projects · Academic Work">
+  <meta property="og:image" content="https://josepaulonunes.github.io/og-image.png">
+  <meta property="og:url" content="https://josepaulonunes.github.io/">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f7f7f5'/%3E%3Crect width='8' height='8' fill='%230066cc'/%3E%3Crect x='8' width='8' height='8' fill='%23f2c94c'/%3E%3Crect x='16' width='8' height='8' fill='%2327ae60'/%3E%3Crect y='8' width='8' height='8' fill='%23e63946'/%3E%3Crect x='16' y='8' width='8' height='8' fill='%230066cc'/%3E%3Crect x='24' y='8' width='8' height='8' fill='%23f2c94c'/%3E%3Crect x='8' y='16' width='8' height='8' fill='%2327ae60'/%3E%3Crect x='16' y='16' width='8' height='8' fill='%23e63946'/%3E%3Crect x='24' y='16' width='8' height='8' fill='%230066cc'/%3E%3Crect y='24' width='8' height='8' fill='%23f2c94c'/%3E%3Crect x='8' y='24' width='8' height='8' fill='%230066cc'/%3E%3Crect x='24' y='24' width='8' height='8' fill='%2327ae60'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <!-- Uncomment when the Projects section goes live:
+      <li><a href="/#projects">Projects</a></li>
+      -->
+      <li><a href="/#academic">Academic Work</a></li>
+      <li><a href="/Jose_Nunes.pdf">CV</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer>
+    Last updated: {{ site.time | date: "%B %Y" }}
+  </footer>
+
+</body>
+</html>

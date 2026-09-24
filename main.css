@@ -255,15 +255,8 @@ a:hover::after, .clickable-paper:hover::after {
   color: #777;
 }
 
-.paper-meta .clickable-paper {
+.paper-meta + .clickable-paper {
   margin-left: 0;
-  font-size: 1em;
-  color: #0066cc;
-  font-weight: 600;
-}
-
-.paper-meta .clickable-paper::after {
-  background-color: #0066cc;
 }
 
 .section-note {
