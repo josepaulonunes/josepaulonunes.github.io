@@ -17,9 +17,9 @@ title: José Nunes
     </div>
 
     <div class="social-links">
-      <a href="mailto:josepnunes3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://linkedin.com/in/josepnunes/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/josepaulonunes" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:josepnunes3@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+      <a href="https://linkedin.com/in/josepnunes/"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+      <a href="https://github.com/josepaulonunes"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
     </div>
 
   </div>

@@ -135,21 +135,56 @@ nav a:hover {
 
 .social-links {
   display: flex;
-  gap: 1.1em;
+  flex-wrap: wrap;
+  gap: 1.4em;
   margin-top: 0.9em;
-  font-size: 1.35em;
+  font-size: 0.98em;
+  font-weight: 600;
 }
 
 .social-links a {
-  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  color: #444;
 }
 
+.social-links a i {
+  font-size: 1.15em;
+  color: #555;
+  transition: color 0.2s ease;
+}
+
+/* underline animates under the text only, not the icon */
 .social-links a::after {
   display: none;
 }
 
-.social-links a:hover {
+.social-links a span {
+  position: relative;
+}
+
+.social-links a span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #0066cc;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s ease;
+}
+
+.social-links a:hover,
+.social-links a:hover i {
   color: #0066cc;
+}
+
+.social-links a:hover span::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* =========================
