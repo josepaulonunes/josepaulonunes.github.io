@@ -92,21 +92,21 @@ I'm an economist intern at ERSE, Portugal's energy sector regulator, working on 
 
 <li>
 <a href="/PISA_ICT_Math.pdf"><strong>The Impact of ICT Regulations on the Achievement Gap in Mathematics: A Cross-Sectional Analysis</strong></a>
-<div class="paper-meta">Econometrics paper · Grade 19/20</div>
+<div class="paper-meta">Co-authored econometrics paper · Grade 19/20</div>
 <span class="clickable-paper">[Summary]</span>
 <div class="abstract">
 <p>Does stricter school-level regulation of phones and digital devices narrow the maths gap between disadvantaged students and their better-off peers? Using PISA 2022 data on about 82,000 students in ten economies, we estimate weighted least squares models that add socioeconomic, behavioural, school and country fixed-effect controls step by step. Once country fixed effects are included, moving from the least to the most regulated schools is associated with about 25 more points in maths (more than a year of schooling), and about 35 points for disadvantaged students. These are associations from cross-sectional data, not causal effects.</p>
-<p><strong>My contribution:</strong> the results section and the Python code, including all graphs.</p>
+<p><strong>My contribution:</strong> the results section and coded all figures and tables.</p>
 </div>
 </li>
 
 <li>
 <a href="/EU_Innovation_Gaps.pdf"><strong>Socioeconomic and Structural Factors in Innovation Gaps: Eastern vs. Western European Union</strong></a>
-<div class="paper-meta">Econometrics paper · Grade 18/20</div>
+<div class="paper-meta">Co-authored Econometrics paper · Grade 18/20</div>
 <span class="clickable-paper">[Summary]</span>
 <div class="abstract">
 <p>Why do Eastern EU member states file far fewer patents than Western ones? Using 2017 data for 27 EU countries (patent applications to the European Patent Office, R&amp;D spending, tertiary education, population and unemployment), we estimate OLS models with an East–West indicator and check robustness with HC3 robust standard errors, VIF and RESET tests. Even after these controls, Eastern countries file roughly 45% fewer patents: the factors we measure do not close the gap, which points to institutional differences our data cannot capture.</p>
-<p><strong>My contribution:</strong> the results, the robustness checks and the R code, including all graphs.</p>
+<p><strong>My contribution:</strong> the results section, ran the robustness checks, and coded all figures and tables in R.</p>
 </div>
 </li>
 
