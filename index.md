@@ -17,7 +17,7 @@ title: José Nunes
     </div>
 
     <div class="social-links">
-      <a href="mailto:josepnunes3@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+      <a href="mailto:josepnunes3@gmail.com" class="email-link" title="josepnunes3@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
       <a href="https://linkedin.com/in/josepnunes/"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://github.com/josepaulonunes"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
     </div>
@@ -27,7 +27,7 @@ title: José Nunes
 </div>
 
 <p class="blurb">
-I'm an economist intern at ERSE, Portugal's energy sector regulator, working on regulatory impact assessments and economic analysis across electricity, natural gas, fuels, and electric mobility. My interests are in industrial organization, macroeconomics, and finance.
+I'm an economist intern at ERSE, Portugal's energy sector regulator, working on regulatory impact assessments and economic analysis across electricity, natural gas, fuels, and electric mobility. My interests are in macroeconomics, finance, and industrial organization.
 </p>
 
 <!-- =========================================================
@@ -119,6 +119,17 @@ This paper examines the efficiency and equity impacts of higher education tuitio
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Email: copy the address and show it (many people have no mail app, so mailto alone does nothing)
+  document.querySelectorAll(".email-link").forEach(function (el) {
+    el.addEventListener("click", function () {
+      var addr = "josepnunes3@gmail.com";
+      if (navigator.clipboard) { navigator.clipboard.writeText(addr).catch(function () {}); }
+      var label = el.querySelector("span");
+      label.textContent = "Copied: " + addr;
+      setTimeout(function () { label.textContent = "Email"; }, 2500);
+    });
+  });
+
   document.querySelectorAll(".clickable-paper").forEach(function (el) {
     el.style.cursor = "pointer";
     el.addEventListener("click", function () {
