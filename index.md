@@ -20,7 +20,6 @@ title: José Nunes
       <a href="mailto:josepnunes3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://linkedin.com/in/josepnunes/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://github.com/josepaulonunes" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="/Jose_Nunes.pdf" aria-label="CV"><i class="fa-solid fa-file-lines"></i></a>
     </div>
 
   </div>
