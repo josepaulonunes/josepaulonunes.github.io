@@ -5,7 +5,7 @@ title: José Nunes
 
 <div class="profile-header">
 
-  <img class="profile-picture" src="/profile.png" alt="José Nunes">
+  <img class="profile-picture" src="/profile.jpg" alt="José Nunes">
 
   <div class="profile-text">
 
@@ -84,34 +84,38 @@ I'm an economist intern at ERSE, Portugal's energy sector regulator, working on 
 </div>
 -->
 
-<h2 id="research">Research</h2>
+<h2 id="academic">Academic Work</h2>
+
+<p class="section-note">Written during my BSc in Economics at Nova SBE.</p>
 
 <ul class="papers">
 
 <li>
 <a href="/PISA_ICT_Math.pdf"><strong>The Impact of ICT Regulations on the Achievement Gap in Mathematics: A Cross-Sectional Analysis</strong></a>
-<span class="clickable-paper"> [Summary] </span>
+<div class="paper-meta">Empirical paper · Econometrics · Group of 4 · Grade 19/20</div>
+<span class="clickable-paper">[Summary]</span>
 <div class="abstract">
-This study examines whether stricter school-level ICT regulation can reduce socioeconomic disparities in Mathematics performance. Using OECD PISA 2022 data from 81,850 students across ten developed economies, we estimate a series of Weighted Least Squares models incorporating socioeconomic, behavioural, demographic, institutional, and country-level controls. The results indicate that stronger ICT regulation is positively associated with Mathematics scores and has an additional positive association for students from disadvantaged socioeconomic backgrounds, suggesting that school-level digital policies may contribute to reducing achievement gaps.
-<p><strong>My contribution:</strong> responsible for the results and R code (including all graphs). <strong>Grade:</strong> 19/20</p>
+<p>Does stricter school-level regulation of phones and digital devices narrow the maths gap between disadvantaged students and their better-off peers? Using PISA 2022 data on about 82,000 students in ten economies, we estimate weighted least squares models that add socioeconomic, behavioural, school and country fixed-effect controls step by step. Once country fixed effects are included, moving from the least to the most regulated schools is associated with about 25 more points in maths (more than a year of schooling), and about 35 points for disadvantaged students. These are associations from cross-sectional data, not causal effects.</p>
+<p><strong>My contribution:</strong> the results section and the Python code, including all graphs.</p>
 </div>
 </li>
 
 <li>
 <a href="/EU_Innovation_Gaps.pdf"><strong>Socioeconomic and Structural Factors in Innovation Gaps: Eastern vs. Western European Union</strong></a>
-<span class="clickable-paper"> [Summary] </span>
+<div class="paper-meta">Empirical paper · Econometrics · Group of 4 · Grade 18/20</div>
+<span class="clickable-paper">[Summary]</span>
 <div class="abstract">
-This study investigates the extent to which socioeconomic and structural factors explain differences in innovation performance between Eastern and Western EU member states. Using patent applications to the European Patent Office (EPO) in 2017 as a proxy for innovation output, alongside Eurostat data on population, R&D expenditure, education levels, and unemployment, the analysis applies a series of OLS regression models incorporating an East-West regional indicator. The results show that while these socioeconomic and structural factors help explain patenting activity, a substantial and statistically significant gap between Eastern and Western EU countries persists even after controlling for them, suggesting that structural or institutional differences not captured by these variables continue to drive the divide in innovation output.
-<p><strong>My contribution:</strong> responsible for the results, robustness checks, and R code (including all graphs). <strong>Grade:</strong> 18/20</p>
+<p>Why do Eastern EU member states file far fewer patents than Western ones? Using 2017 data for 27 EU countries (patent applications to the European Patent Office, R&amp;D spending, tertiary education, population and unemployment), we estimate OLS models with an East–West indicator and check robustness with HC3 robust standard errors, VIF and RESET tests. Even after these controls, Eastern countries file roughly 45% fewer patents: the factors we measure do not close the gap, which points to institutional differences our data cannot capture.</p>
+<p><strong>My contribution:</strong> the results, the robustness checks and the R code, including all graphs.</p>
 </div>
 </li>
 
 <li>
 <a href="/Tuition_Fee_Reform.pdf"><strong>Tuition Fee Reform: Policy Recommendation</strong></a>
-<span class="clickable-paper"> [Summary] </span>
+<div class="paper-meta">Policy essay · Public Economics · Individual · Grade 18/20</div>
+<span class="clickable-paper">[Summary]</span>
 <div class="abstract">
-This paper examines the efficiency and equity impacts of higher education tuition fees, drawing on evidence from Germany's 2007 university fee reforms. Using key public economics concepts like positive externalities, Pigouvian subsidies, optimal taxation, and welfare theory, it shows that shifting costs onto students triggers severe market failures. The evidence reveals that even small fees drop overall enrollment, alter student mobility, and place an unfair burden on low income families.
-<p>Ultimately, keeping tuition low or free is essential to safeguard equal opportunity, avoid underinvestment in education, and drive long term economic growth. <strong>Grade:</strong> 18/20</p>
+<p>Should university students pay higher tuition fees? Drawing on evidence from Germany's 2007 tuition fee reforms and on public economics tools (externalities, tax incidence, the Ramsey rule and welfare criteria), I argue that raising fees reduces enrolment, falls hardest on low-income students, and is both inefficient and inequitable.</p>
 </div>
 </li>
 
