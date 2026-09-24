@@ -2,6 +2,14 @@
    Layout
    ========================= */
 
+html {
+  scroll-behavior: smooth;
+}
+
+h2[id] {
+  scroll-margin-top: 1.5em;
+}
+
 body {
   margin: 0 auto;
   padding: 40px 20px;
@@ -118,6 +126,29 @@ nav a:hover {
 }
 
 .blurb a:hover {
+  color: #0066cc;
+}
+
+/* =========================
+   Social icons (under name)
+   ========================= */
+
+.social-links {
+  display: flex;
+  gap: 1.1em;
+  margin-top: 0.9em;
+  font-size: 1.35em;
+}
+
+.social-links a {
+  color: #555;
+}
+
+.social-links a::after {
+  display: none;
+}
+
+.social-links a:hover {
   color: #0066cc;
 }
 
@@ -246,6 +277,74 @@ ul.papers li strong {
 }
 
 /* =========================
+   Project cards
+   ========================= */
+
+.projects {
+  display: grid;
+  gap: 1.4em;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.3em;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 1em;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.project-card:hover {
+  border-color: #cfd8e3;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.project-card img {
+  width: 240px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.project-body h3 {
+  margin: 0 0 0.3em;
+  font-size: 1.15em;
+  color: #222;
+}
+
+.project-body p {
+  margin: 0 0 0.7em;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-bottom: 0.7em;
+}
+
+.tags span {
+  font-size: 0.78em;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  background: #eef3f9;
+  color: #34506f;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  font-size: 0.92em;
+  font-weight: 600;
+}
+
+/* =========================
    Footer
    ========================= */
 
@@ -300,5 +399,15 @@ footer a:hover {
   .contact-links a {
     display: inline-block;
     margin-bottom: 0.5em;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 }

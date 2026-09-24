@@ -16,15 +16,76 @@ title: José Nunes
       <p>Lisbon, Portugal</p>
     </div>
 
+    <div class="social-links">
+      <a href="mailto:josepnunes3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/josepnunes/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/josepaulonunes" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="/Jose_Nunes.pdf" aria-label="CV"><i class="fa-solid fa-file-lines"></i></a>
+    </div>
+
   </div>
 
 </div>
 
 <p class="blurb">
-I'm an economist intern at ERSE, Portugal's energy sector regulator, working on regulatory impact assessments and economic analysis across electricity, natural gas, fuels, and electric mobility. My interests are in industrial organization, macroeconomics, and finance. You can contact me at <a href="mailto:josepnunes3@gmail.com">josepnunes3@gmail.com</a>.
+I'm an economist intern at ERSE, Portugal's energy sector regulator, working on regulatory impact assessments and economic analysis across electricity, natural gas, fuels, and electric mobility. My interests are in industrial organization, macroeconomics, and finance.
 </p>
 
-<h2>Academic Projects</h2>
+<!-- =========================================================
+     PROJECTS: hidden until P1 has a live dashboard.
+     To publish: remove the comment markers around the block
+     below, uncomment the Projects link in _layouts/default.html,
+     add screenshots to /img/ and replace the LINK-TO placeholders.
+     ========================================================= -->
+<!--
+<h2 id="projects">Projects</h2>
+
+<div class="projects">
+
+  <div class="project-card">
+    <img src="/img/ecb-policy-monitor.png" alt="ECB Policy Monitor dashboard">
+    <div class="project-body">
+      <h3>ECB Policy Monitor</h3>
+      <p>Is the ECB too tight or too loose? Taylor rule, output gap and inflation breakdown for the euro area, updated automatically every week.</p>
+      <div class="tags"><span>Python</span><span>SQL</span><span>statsmodels</span><span>Streamlit</span><span>GitHub Actions</span></div>
+      <div class="project-links">
+        <a href="https://LINK-TO-STREAMLIT-APP"><i class="fa-solid fa-chart-line"></i> Live dashboard</a>
+        <a href="https://github.com/josepaulonunes/ecb-policy-monitor"><i class="fa-brands fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/img/euro-bond-market-lab.png" alt="Euro Area Bond Market Lab">
+    <div class="project-body">
+      <h3>Euro Area Bond Market Lab</h3>
+      <p>From bailout to below France: what drives euro area sovereign spreads, fundamentals or panic?</p>
+      <div class="tags"><span>R</span><span>fixest</span><span>Quarto</span><span>Shiny</span></div>
+      <div class="project-links">
+        <a href="https://LINK-TO-SHINY-APP"><i class="fa-solid fa-chart-line"></i> Live app</a>
+        <a href="https://LINK-TO-QUARTO-REPORT"><i class="fa-solid fa-file-lines"></i> Report</a>
+        <a href="https://github.com/josepaulonunes/euro-bond-market-lab"><i class="fa-brands fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/img/eu-fuel-price-monitor.png" alt="EU Fuel Price Monitor report">
+    <div class="project-body">
+      <h3>EU Fuel Price Monitor</h3>
+      <p>Rockets and feathers: do pump prices react faster to oil price increases than to decreases?</p>
+      <div class="tags"><span>Power Query</span><span>Power BI</span><span>DAX</span><span>SQL</span></div>
+      <div class="project-links">
+        <a href="https://LINK-TO-REPORT"><i class="fa-solid fa-chart-column"></i> Report</a>
+        <a href="https://github.com/josepaulonunes/eu-fuel-price-monitor"><i class="fa-brands fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+-->
+
+<h2 id="research">Research</h2>
 
 <ul class="papers">
 
