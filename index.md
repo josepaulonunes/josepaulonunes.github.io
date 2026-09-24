@@ -102,7 +102,7 @@ I'm an economist intern at ERSE, Portugal's energy sector regulator, working on 
 
 <li>
 <a href="/EU_Innovation_Gaps.pdf"><strong>Socioeconomic and Structural Factors in Innovation Gaps: Eastern vs. Western European Union</strong></a>
-<div class="paper-meta">Co-authored Econometrics paper · Grade 18/20</div>
+<div class="paper-meta">Co-authored econometrics paper · Grade 18/20</div>
 <span class="clickable-paper">[Summary]</span>
 <div class="abstract">
 <p>Why do Eastern EU member states file far fewer patents than Western ones? Using 2017 data for 27 EU countries (patent applications to the European Patent Office, R&amp;D spending, tertiary education, population and unemployment), we estimate OLS models with an East–West indicator and check robustness with HC3 robust standard errors, VIF and RESET tests. Even after these controls, Eastern countries file roughly 45% fewer patents: the factors we measure do not close the gap, which points to institutional differences our data cannot capture.</p>
@@ -112,7 +112,7 @@ I'm an economist intern at ERSE, Portugal's energy sector regulator, working on 
 
 <li>
 <a href="/Tuition_Fee_Reform.pdf"><strong>Tuition Fee Reform: Policy Recommendation</strong></a>
-<div class="paper-meta">Public Economics essay · Grade 18/20</div>
+<div class="paper-meta">Public economics essay · Grade 18/20</div>
 <span class="clickable-paper">[Summary]</span>
 <div class="abstract">
 <p>Should university students pay higher tuition fees? Drawing on evidence from Germany's 2007 tuition fee reforms and on public economics tools (externalities, tax incidence, the Ramsey rule and welfare criteria), I argue that raising fees reduces enrolment, falls hardest on low-income students, and is both inefficient and inequitable.</p>
