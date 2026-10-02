@@ -18,9 +18,23 @@ How do Portuguese pump prices for gasoline and diesel respond to oil prices, and
 
 <h2>Interactive dashboard</h2>
 
-<div class="viz-frame">
-  <iframe src="https://public.tableau.com/views/FuelpricesinPortugalvsBrent/Fuelpricesdashboard?:showVizHome=no&:embed=true&:toolbar=bottom" title="Fuel prices in Portugal vs Brent dashboard" loading="lazy" allowfullscreen></iframe>
+<div class="viz-wide">
+  <div class="viz-scale" id="viz-scale">
+    <iframe id="viz" src="https://public.tableau.com/views/FuelpricesinPortugalvsBrent/Fuelpricesdashboard?:showVizHome=no&:embed=true&:toolbar=no&:tabs=no" title="Fuel prices in Portugal vs Brent dashboard" width="1200" height="1000" scrolling="no" loading="lazy"></iframe>
+  </div>
 </div>
+
+<script>
+function fitViz() {
+  var box = document.getElementById("viz-scale");
+  var frame = document.getElementById("viz");
+  var scale = box.clientWidth / 1200;
+  frame.style.transform = "scale(" + scale + ")";
+  box.style.height = (1000 * scale) + "px";
+}
+window.addEventListener("load", fitViz);
+window.addEventListener("resize", fitViz);
+</script>
 <p class="viz-note">On a phone, the dashboard works best in <a href="https://public.tableau.com/app/profile/jos.nunes7914/viz/FuelpricesinPortugalvsBrent/Fuelpricesdashboard" target="_blank" rel="noopener">Tableau Public</a>.</p>
 
 <h2>Key findings</h2>
