@@ -18,24 +18,33 @@ How do Portuguese pump prices for gasoline and diesel respond to oil prices, and
 
 <h2>Interactive dashboard</h2>
 
-<div class="viz-wide">
-  <div class="viz-scale" id="viz-scale">
-    <iframe id="viz" src="https://public.tableau.com/views/FuelpricesinPortugalvsBrent/Fuelpricesdashboard?:showVizHome=no&:embed=true&:toolbar=no&:tabs=no" title="Fuel prices in Portugal vs Brent dashboard" width="1200" height="1000" scrolling="no" loading="lazy"></iframe>
-  </div>
+<div class="viz-box" id="viz-box">
+  <img class="figure viz-preview" src="/fuel-prices/tableau_dashboard.png" alt="Fuel prices in Portugal vs Brent dashboard" width="1186" height="991">
+  <button type="button" class="viz-load" id="viz-load"><i class="fa-solid fa-hand-pointer"></i> Load interactive dashboard</button>
 </div>
 
 <script>
+// Show a light image first; load the Tableau dashboard only when the visitor asks for it
 function fitViz() {
   var box = document.getElementById("viz-scale");
   var frame = document.getElementById("viz");
+  if (!box || !frame) { return; }
   var scale = box.clientWidth / 1200;
   frame.style.transform = "scale(" + scale + ")";
   box.style.height = (1000 * scale) + "px";
 }
-window.addEventListener("load", fitViz);
+
+document.getElementById("viz-load").addEventListener("click", function () {
+  var holder = document.getElementById("viz-box");
+  holder.innerHTML = '<div class="viz-scale" id="viz-scale">' +
+    '<iframe id="viz" src="https://public.tableau.com/views/FuelpricesinPortugalvsBrent/Fuelpricesdashboard?:showVizHome=no&:embed=true&:toolbar=no&:tabs=no" ' +
+    'title="Fuel prices in Portugal vs Brent dashboard" width="1200" height="1000" scrolling="no"></iframe></div>';
+  fitViz();
+});
+
 window.addEventListener("resize", fitViz);
 </script>
-<p class="viz-note">On a phone, the dashboard works best in <a href="https://public.tableau.com/app/profile/jos.nunes7914/viz/FuelpricesinPortugalvsBrent/Fuelpricesdashboard" target="_blank" rel="noopener">Tableau Public</a>.</p>
+<p class="viz-note">The interactive version loads from Tableau Public and can take a few seconds. On a phone, it works best directly in <a href="https://public.tableau.com/app/profile/jos.nunes7914/viz/FuelpricesinPortugalvsBrent/Fuelpricesdashboard" target="_blank" rel="noopener">Tableau Public</a>.</p>
 
 <h2>Key findings</h2>
 
@@ -49,16 +58,16 @@ window.addEventListener("resize", fitViz);
 </ul>
 
 <h2>Rockets and feathers</h2>
-<img class="figure" src="/fuel-prices/rockets_feathers_comparison.png" alt="Long run pass-through of cost rises and falls">
+<img class="figure" loading="lazy" src="/fuel-prices/rockets_feathers_comparison.png" alt="Long run pass-through of cost rises and falls">
 
 <h2>What makes up the price of a litre of diesel</h2>
-<img class="figure" src="/fuel-prices/diesel_price_decomposition.png" alt="Diesel price decomposition">
+<img class="figure" loading="lazy" src="/fuel-prices/diesel_price_decomposition.png" alt="Diesel price decomposition">
 
 <h2>Portugal vs Spain, price without taxes</h2>
-<img class="figure" src="/fuel-prices/portugal_vs_spain_pretax_gap.png" alt="Portugal minus Spain, price without taxes">
+<img class="figure" loading="lazy" src="/fuel-prices/portugal_vs_spain_pretax_gap.png" alt="Portugal minus Spain, price without taxes">
 
 <h2>Forecasting Monday's pump price change</h2>
-<img class="figure" src="/fuel-prices/monday_forecast_diesel.png" alt="Monday forecast for diesel">
+<img class="figure" loading="lazy" src="/fuel-prices/monday_forecast_diesel.png" alt="Monday forecast for diesel">
 
 <h2>Data and method</h2>
 <p>Weekly data from January 2019 to September 2026. Brent crude and the EUR/USD exchange rate from FRED, Portuguese pump prices with and without taxes from the European Commission Weekly Oil Bulletin, and gasoline and diesel reference prices from ENSE. Pass-through is estimated with an asymmetric distributed lag model by OLS with Newey-West standard errors. The full specification, regression tables and code are on <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener">GitHub</a>.</p>
