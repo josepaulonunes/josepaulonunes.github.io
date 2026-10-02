@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Rockets and Feathers: Oil Price Pass-Through to Fuel Prices | José Nunes
----
+title: "Rockets and Feathers: Oil Price Pass-Through to Fuel Prices | José Nunes"
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
