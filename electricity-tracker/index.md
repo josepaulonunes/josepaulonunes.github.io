@@ -8,7 +8,7 @@ title: Portugal Electricity Tracker | José Nunes
 <h1 class="page-title">Portugal Electricity Tracker</h1>
 
 <p class="page-lead">
-How have wind and solar changed wholesale electricity prices in Portugal? This project collects hourly prices and production by source since 2019, measures how much each extra point of wind and solar lowers the price, and shows how solar is losing value as more of it is built. A live app, updated automatically every day, shows tomorrow's prices and where today's electricity came from.
+How have wind and solar changed wholesale electricity prices in Portugal? This project collects hourly prices and production by source since 2019, measures how much each extra point of wind and solar lowers the price, and shows how solar is losing value as more of it is built. A live app, updated automatically every day, shows tomorrow's prices, where today's electricity came from and how much a battery would earn tomorrow.
 </p>
 
 <div class="project-links page-links">
@@ -23,6 +23,7 @@ How have wind and solar changed wholesale electricity prices in Portugal? This p
   <li><strong>Each extra point of wind and solar lowers the price by about 0.94 €/MWh</strong>, controlling for demand, hydro and the year. One extra GW of demand raises it by about 8 €/MWh (about 68,000 hours since 2019, R² of 0.49).</li>
   <li><strong>The duck curve has arrived.</strong> In 2019 prices were almost flat during the day. Now solar pushes midday prices down, while evening prices stay high.</li>
   <li><strong>Solar is losing value.</strong> The solar capture rate (the price solar plants receive compared with the average price) fell from 102% in 2019 to about 50% in 2026, because all solar plants produce at the same hours.</li>
+  <li><strong>Batteries are worth more every year.</strong> A 1 MW battery with 4 hours of storage, charging in the cheapest hours and discharging in the most expensive, would have earned about 9 thousand € in 2019 and about 130 thousand € per year at the 2026 pace. The cheaper midday gets, the more storage is worth.</li>
   <li><strong>Near zero and negative prices are now common.</strong> There were 19 hours with a price at or below 1 €/MWh in 2019 and 1,190 so far in 2026. Negative prices appeared in 2024 and reached 541 hours so far in 2026.</li>
 </ul>
 
@@ -34,6 +35,9 @@ How have wind and solar changed wholesale electricity prices in Portugal? This p
 
 <h2>Solar capture rate</h2>
 <img class="figure" loading="lazy" src="/electricity-tracker/solar_capture_rate.png" alt="Solar capture rate by year">
+
+<h2>Value of a battery</h2>
+<img class="figure" loading="lazy" src="/electricity-tracker/battery_value.png" alt="Yearly profit of a 1 MW battery">
 
 <h2>Data and method</h2>
 <p>Hourly day-ahead prices for Portugal from the REN DataHub API (2019 to June 2026) and from OMIE market files (from July 2026), converted from Spanish to Portuguese time. Production by source every 15 minutes from the REN DataHub API, converted to hourly averages. The data is stored in CSV files and loaded into a SQLite database for the analysis with SQL and Python. The regression of the hourly price on the share of wind and solar, the share of hydro, demand and year fixed effects is estimated by OLS with Newey-West (HAC) standard errors. A Python script run every day by GitHub Actions adds the newest data, and the app is built with Streamlit. The code is on <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener">GitHub</a>.</p>
