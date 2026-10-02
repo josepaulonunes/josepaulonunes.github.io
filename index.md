@@ -1,112 +1,41 @@
 ---
 layout: default
-title: José Nunes
+title: Portugal Electricity Tracker | José Nunes
 ---
 
-<div class="profile-header">
+<p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-  <img class="profile-picture" src="/images/profile.jpg" alt="José Nunes">
+<h1 class="page-title">Portugal Electricity Tracker</h1>
 
-  <div class="profile-text">
-
-    <h1>José Nunes</h1>
-
-    <div class="subtitle">
-      <p>BSc in Economics, Nova School of Business and Economics</p>
-      <p>Lisbon, Portugal</p>
-    </div>
-
-    <div class="social-links">
-      <a href="mailto:josepnunes3@gmail.com" class="email-link" title="josepnunes3@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
-      <a href="https://linkedin.com/in/josepnunes/"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
-      <a href="https://github.com/josepaulonunes"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
-    </div>
-
-  </div>
-
-</div>
-
-<p class="blurb">
-I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regulatory impact assessments and economic analysis across the electricity, fuel and natural gas sectors. My interests are in energy economics, macroeconomics and finance.
+<p class="page-lead">
+How have wind and solar changed wholesale electricity prices in Portugal? This project collects hourly prices and production by source since 2019, measures how much each extra point of wind and solar lowers the price, and shows how solar is losing value as more of it is built. A live app, updated automatically every day, shows tomorrow's prices and where today's electricity came from.
 </p>
 
-<h2 id="projects">Projects</h2>
-
-<div class="projects">
-
-  <div class="project-card">
-    <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
-    <div class="project-body">
-      <h3><a href="/fuel-prices/">Fuel Prices in Portugal vs Brent</a></h3>
-      <p>Do Portuguese pump prices rise faster than they fall when oil prices move? A weekly analysis of gasoline and diesel since 2019, with a comparison to Spain and a forecast of next Monday's price change.</p>
-      <div class="tags"><span>Python</span><span>pandas</span><span>statsmodels</span><span>Tableau</span></div>
-      <div class="project-links">
-        <a href="/fuel-prices/"><i class="fa-solid fa-file-lines"></i> Project page</a>
-        <a href="https://public.tableau.com/app/profile/jos.nunes7914/viz/FuelpricesinPortugalvsBrent/Fuelpricesdashboard" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Dashboard</a>
-        <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
-      </div>
-    </div>
-  </div>
-
+<div class="project-links page-links">
+  <a href="https://portugal-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Open the live app</a>
+  <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code and full results</a>
 </div>
 
-<h2 id="academic">Academic Work</h2>
+<h2>Key findings</h2>
 
-<p class="section-note">Written during my bachelor's degree.</p>
-
-<ul class="papers">
-
-<li>
-<a href="/PISA_ICT_Math.pdf"><strong>The Impact of ICT Regulations on the Achievement Gap in Mathematics: A Cross-Sectional Analysis</strong></a>
-<span class="clickable-paper">[Summary]</span>
-<div class="abstract">
-<p>Does stricter school-level regulation of phones and digital devices narrow the maths gap between disadvantaged students and their better-off peers? Using PISA 2022 data on about 82,000 students in ten economies, we estimate weighted least squares models that add socioeconomic, behavioural, school and country fixed-effect controls step by step. Once country fixed effects are included, moving from the least to the most regulated schools is associated with about 25 more points in maths (more than a year of schooling), and about 35 points for disadvantaged students. These are associations from cross-sectional data, not causal effects.</p>
-<p><strong>My contribution:</strong> Wrote the results section and coded all figures and tables. <strong>Grade:</strong> 19/20</p>
-</div>
-</li>
-
-<li>
-<a href="/EU_Innovation_Gaps.pdf"><strong>Socioeconomic and Structural Factors in Innovation Gaps: Eastern vs. Western European Union</strong></a>
-<span class="clickable-paper">[Summary]</span>
-<div class="abstract">
-<p>Why do Eastern EU member states file far fewer patents than Western ones? Using 2017 data for 27 EU countries (patent applications to the European Patent Office, R&amp;D spending, tertiary education, population and unemployment), we estimate OLS models with an East-West indicator and check robustness with HC3 robust standard errors, VIF and RESET tests. Even after these controls, Eastern countries file roughly 45% fewer patents: the factors we measure do not close the gap, which points to institutional differences our data cannot capture.</p>
-<p><strong>My contribution:</strong> Wrote the results section, ran the robustness checks, and coded all figures and tables in R. <strong>Grade:</strong> 18/20</p>
-</div>
-</li>
-
-<li>
-<a href="/Tuition_Fee_Reform.pdf"><strong>Tuition Fee Reform: Policy Recommendation</strong></a>
-<span class="clickable-paper">[Summary]</span>
-<div class="abstract">
-<p>Should university students pay higher tuition fees? Drawing on evidence from Germany's 2007 tuition fee reforms and on public economics tools (externalities, tax incidence, the Ramsey rule and welfare criteria), I argue that raising fees reduces enrolment, falls hardest on low-income students, and is both inefficient and inequitable.</p>
-<p><strong>Grade:</strong> 18/20</p>
-</div>
-</li>
-
+<ul class="findings">
+  <li><strong>More wind and solar, lower prices.</strong> Since 2023, the average price is about 113 €/MWh in hours when wind and solar cover less than 10% of consumption, and about 15 €/MWh when they cover more than 80%.</li>
+  <li><strong>Each extra point of wind and solar lowers the price by about 0.94 €/MWh</strong>, controlling for demand, hydro and the year. One extra GW of demand raises it by about 8 €/MWh (67,928 hours, R² of 0.49).</li>
+  <li><strong>The duck curve has arrived.</strong> In 2019 prices were almost flat during the day. Now solar pushes midday prices down, while evening prices stay high.</li>
+  <li><strong>Solar is losing value.</strong> The solar capture rate (the price solar plants receive compared with the average price) fell from 102% in 2019 to about 50% in 2026, because all solar plants produce at the same hours.</li>
+  <li><strong>Zero and negative prices are now common.</strong> There were 19 hours at or below zero in 2019 and 1,190 so far in 2026. Negative prices appeared in 2024.</li>
 </ul>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  // Email: copy the address and show it (many people have no mail app, so mailto alone does nothing)
-  document.querySelectorAll(".email-link").forEach(function (el) {
-    el.addEventListener("click", function () {
-      var addr = "josepnunes3@gmail.com";
-      if (navigator.clipboard) { navigator.clipboard.writeText(addr).catch(function () {}); }
-      var label = el.querySelector("span");
-      label.textContent = "Copied: " + addr;
-      setTimeout(function () { label.textContent = "Email"; }, 2500);
-    });
-  });
+<h2>Price by share of wind and solar</h2>
+<img class="figure" loading="lazy" src="/electricity/price_by_renewable_share.png" alt="Average price by share of wind and solar">
 
-  document.querySelectorAll(".clickable-paper").forEach(function (el) {
-    el.style.cursor = "pointer";
-    el.addEventListener("click", function () {
-      const next = el.closest("li").querySelector(".abstract");
-      if (next) {
-        next.style.display = (next.style.display === "block") ? "none" : "block";
-        el.classList.toggle("open");
-      }
-    });
-  });
-});
-</script>
+<h2>Price by hour of the day</h2>
+<img class="figure" loading="lazy" src="/electricity/duck_curve.png" alt="Average price by hour of the day in 2019, 2023 and 2025">
+
+<h2>Solar capture rate</h2>
+<img class="figure" loading="lazy" src="/electricity/solar_capture_rate.png" alt="Solar capture rate by year">
+
+<h2>Data and method</h2>
+<p>Hourly day-ahead prices for Portugal from the REN DataHub API (2019 to June 2026) and from OMIE market files (from July 2026), converted from Spanish to Portuguese time. Production by source every 15 minutes from the REN DataHub API, converted to hourly averages. The data is stored in CSV files and loaded into a SQLite database for the analysis with SQL and Python. The regression of the hourly price on the share of wind and solar, the share of hydro, demand and year fixed effects is estimated by OLS with Newey-West (HAC) standard errors. A Python script run every day by GitHub Actions adds the newest data, and the app is built with Streamlit. The code is on <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener">GitHub</a>.</p>
+
+<p class="disclaimer">Personal project built with public data only. The views expressed are my own and do not represent ERSE.</p>
