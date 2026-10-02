@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Portugal Electricity Tracker | José Nunes
+title: Sun Down, Prices Up | José Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Portugal Electricity Tracker</h1>
+<h1 class="page-title">Sun Down, Prices Up: How Wind and Solar Changed Electricity Prices in Portugal</h1>
 
 <p class="page-lead">
-How have wind and solar changed wholesale electricity prices in Portugal? This project collects hourly prices and production by source since 2019, measures how much each extra point of wind and solar lowers the price, and shows how solar is losing value as more of it is built. A live app, updated automatically every day, shows tomorrow's prices, where today's electricity came from and how much a battery would earn tomorrow.
+Across Europe, wind and solar are changing how electricity prices behave: lower on average, much lower at midday and still high in the evening. This project measures these effects with hourly data for Portugal since 2019: how much each extra point of wind and solar lowers the wholesale price, how much value solar loses as more of it is built, and how much the gap between cheap and expensive hours is worth to a battery. These questions are at the centre of the EU debate on electricity market design and on investment in storage. A live app, the Portugal Electricity Tracker, is updated automatically every day and shows tomorrow's prices, where today's electricity came from and how much a battery would earn.
 </p>
 
 <div class="project-links page-links">
