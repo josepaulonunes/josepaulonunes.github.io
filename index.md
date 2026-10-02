@@ -37,8 +37,8 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
   <div class="project-card">
     <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/duck_curve.png" alt="Average electricity price by hour of the day in Portugal"></a>
     <div class="project-body">
-      <h3><a href="/electricity-tracker/">Portugal Electricity Tracker</a></h3>
-      <p>How have wind and solar changed wholesale electricity prices in Portugal? Hourly prices and production by source since 2019, a regression of the price on the share of renewables, and a live app updated every day with tomorrow's prices.</p>
+      <h3><a href="/electricity-tracker/">Sun Down, Prices Up: How Wind and Solar Changed Electricity Prices</a></h3>
+      <p>As wind and solar grow, what happens to wholesale electricity prices, to the value of solar power and to the value of storage? Hourly data for Portugal since 2019, a regression with Newey-West standard errors, and a live app updated every day with tomorrow's prices and the best hours to store energy.</p>
       <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="/electricity-tracker/"><i class="fa-solid fa-file-lines"></i> Project page</a>
@@ -51,8 +51,8 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
   <div class="project-card">
     <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
     <div class="project-body">
-      <h3><a href="/fuel-prices/">Fuel Prices in Portugal vs Brent</a></h3>
-      <p>Do Portuguese pump prices rise faster than they fall when oil prices move? A weekly analysis of gasoline and diesel since 2019, with a comparison to Spain and a forecast of next Monday's price change.</p>
+      <h3><a href="/fuel-prices/">Rockets and Feathers: Oil Price Pass-Through to Fuel Prices</a></h3>
+      <p>Do pump prices rise faster than they fall when oil prices move, and is it refiners or petrol stations? A weekly asymmetric pass-through analysis of gasoline and diesel in Portugal since 2019, with a comparison to Spain and a forecast of next Monday's price change.</p>
       <div class="tags"><span>Python</span><span>pandas</span><span>statsmodels</span><span>Tableau</span></div>
       <div class="project-links">
         <a href="/fuel-prices/"><i class="fa-solid fa-file-lines"></i> Project page</a>
