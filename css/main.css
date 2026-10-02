@@ -575,3 +575,26 @@ footer a:hover {
     height: auto;
   }
 }
+
+/* =========================
+   Underline for long links (works on two lines)
+   ========================= */
+
+.project-body h3 a,
+ul.papers li > a {
+  background-image: linear-gradient(#0066cc, #0066cc);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease, color 0.2s ease;
+}
+
+.project-body h3 a:hover,
+ul.papers li > a:hover {
+  background-size: 100% 1px;
+}
+
+.project-body h3 a::after,
+ul.papers li > a::after {
+  display: none;
+}
