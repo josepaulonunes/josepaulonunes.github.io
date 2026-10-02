@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Fuel Prices in Portugal vs Brent | José Nunes
+title: Rockets and Feathers: Oil Price Pass-Through to Fuel Prices | José Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Fuel Prices in Portugal vs Brent</h1>
+<h1 class="page-title">Rockets and Feathers: Oil Price Pass-Through to Fuel Prices in Portugal</h1>
 
 <p class="page-lead">
-How do Portuguese pump prices for gasoline and diesel respond to oil prices, and do they rise faster than they fall ("rockets and feathers")? If they do, is it the petrol stations or the refining and wholesale market? How do Portuguese prices compare with Spain, and can next Monday's price change be predicted?
+When oil prices rise, do pump prices follow faster than when they fall? This "rockets and feathers" pattern is a long standing question in energy and competition policy. Using weekly data since 2019, this project tests it for gasoline and diesel in Portugal, separates the role of refining and wholesale markets from that of petrol stations, compares prices before and after taxes with Spain, and forecasts next Monday's pump price change.
 </p>
 
 <div class="project-links page-links">
