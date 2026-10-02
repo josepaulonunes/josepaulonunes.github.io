@@ -20,10 +20,10 @@ How have wind and solar changed wholesale electricity prices in Portugal? This p
 
 <ul class="findings">
   <li><strong>More wind and solar, lower prices.</strong> Since 2023, the average price is about 113 €/MWh in hours when wind and solar cover less than 10% of consumption, and about 15 €/MWh when they cover more than 80%.</li>
-  <li><strong>Each extra point of wind and solar lowers the price by about 0.94 €/MWh</strong>, controlling for demand, hydro and the year. One extra GW of demand raises it by about 8 €/MWh (67,928 hours, R² of 0.49).</li>
+  <li><strong>Each extra point of wind and solar lowers the price by about 0.94 €/MWh</strong>, controlling for demand, hydro and the year. One extra GW of demand raises it by about 8 €/MWh (about 68,000 hours since 2019, R² of 0.49).</li>
   <li><strong>The duck curve has arrived.</strong> In 2019 prices were almost flat during the day. Now solar pushes midday prices down, while evening prices stay high.</li>
   <li><strong>Solar is losing value.</strong> The solar capture rate (the price solar plants receive compared with the average price) fell from 102% in 2019 to about 50% in 2026, because all solar plants produce at the same hours.</li>
-  <li><strong>Zero and negative prices are now common.</strong> There were 19 hours at or below zero in 2019 and 1,190 so far in 2026. Negative prices appeared in 2024.</li>
+  <li><strong>Near zero and negative prices are now common.</strong> There were 19 hours with a price at or below 1 €/MWh in 2019 and 1,190 so far in 2026. Negative prices appeared in 2024 and reached 541 hours so far in 2026.</li>
 </ul>
 
 <h2>Price by share of wind and solar</h2>
