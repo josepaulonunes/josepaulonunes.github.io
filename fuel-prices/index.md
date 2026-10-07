@@ -8,7 +8,7 @@ title: Rockets and Feathers | José Nunes
 <h1 class="page-title">Rockets and Feathers: Oil Price Pass-Through to Fuel Prices in Portugal</h1>
 
 <p class="page-lead">
-When oil prices rise, do pump prices follow faster than when they fall? This "rockets and feathers" pattern is a long standing question in energy and competition policy. Using weekly data since 2019, this project tests it for gasoline and diesel in Portugal, separates the role of refining and wholesale markets from that of petrol stations, compares prices before and after taxes with Spain, and forecasts next Monday's pump price change.
+When oil prices rise, do pump prices follow faster than when they fall? This "rockets and feathers" pattern is a long standing question in energy and competition policy. Using weekly data since 2019, this project tests it for gasoline and diesel in Portugal, separates the role of refining and wholesale markets from that of petrol stations, compares prices before and after taxes with Spain, and forecasts next Monday's pump price change. The short answer: petrol stations pass on rises and falls equally. The only clear asymmetry is diesel against crude oil, and it comes from the 2022 energy crisis.
 </p>
 
 <div class="project-links page-links">
@@ -50,15 +50,17 @@ window.addEventListener("resize", fitViz);
 
 <ul class="findings">
   <li><strong>Diesel rises faster than it falls against crude oil.</strong> In the long run, a 1 cent rise in Brent raises the pre-tax diesel price by about 1.34 cents, while a 1 cent fall lowers it by only 0.80 cents (p = 0.047).</li>
-  <li><strong>But not against the wholesale reference price.</strong> Using the ENSE reference price, diesel rises and falls are passed on almost equally (0.90 vs 0.85, p = 0.37). The asymmetry comes from refining and wholesale markets, not from petrol stations.</li>
-  <li><strong>Gasoline shows no asymmetry</strong> against either cost measure.</li>
+  <li><strong>But this comes from 2022.</strong> When I drop the 2022 energy crisis, the gap shrinks (1.08 vs 0.78) and is no longer significant (p = 0.29). Against the ENSE reference price the gap is not significant either.</li>
+  <li><strong>Petrol stations pass on rises and falls equally.</strong> From the ENSE reference price to the pump, diesel rises and falls are passed on almost the same (0.90 vs 0.85, p = 0.37). Falls reach the pump a week or two later, but by week 3 both are the same. Gasoline shows no asymmetry at any stage.</li>
+  <li><strong>High diesel margins are corrected fast, low ones slowly.</strong> An error correction model shows that when the retail margin is above its normal level, half of the gap closes in about 2 weeks. When it is below, it takes about 16 weeks. That is the opposite of what "rockets and feathers" would predict.</li>
   <li><strong>Taxes make up about half of the price.</strong> On average since 2019, taxes are 49% of the price of a litre of diesel.</li>
   <li><strong>Portugal vs Spain:</strong> fuel in Portugal costs 17.6 cents per litre more than in Spain for gasoline and 12.3 cents more for diesel, but the whole gap comes from taxes. Before taxes, Portuguese prices are 2 to 3 cents lower.</li>
-  <li><strong>Monday forecast:</strong> last week's change in the reference price predicts Monday's pump price change with an average error of about 1 cent per litre on 2025 and 2026 data, less than half the error of a "no change" forecast.</li>
+  <li><strong>Monday forecast:</strong> on 2025 and 2026 data, the model predicts Monday's pump price change with an average error of about 1 cent per litre. A "no change" forecast misses by 2 to 3 cents, and simply copying last week's change in the reference price misses by about 1.2 cents.</li>
 </ul>
 
-<h2>Rockets and feathers</h2>
-<img class="figure" loading="lazy" src="/fuel-prices/rockets_feathers_comparison.png" alt="Long run pass-through of cost rises and falls">
+<h2>Rockets and feathers, week by week</h2>
+<p>How much of a 1 cent cost change has reached the pump after each week. Red is a cost rise, blue a cost fall.</p>
+<img class="figure" loading="lazy" src="/fuel-prices/cumulative_response.png" alt="Cumulative response of pump prices to cost rises and falls, week by week">
 
 <h2>What makes up the price of a litre of diesel</h2>
 <img class="figure" loading="lazy" src="/fuel-prices/diesel_price_decomposition.png" alt="Diesel price decomposition">
@@ -70,6 +72,6 @@ window.addEventListener("resize", fitViz);
 <img class="figure" loading="lazy" src="/fuel-prices/monday_forecast_diesel.png" alt="Monday forecast for diesel">
 
 <h2>Data and method</h2>
-<p>Weekly data from January 2019 to September 2026. Brent crude and the EUR/USD exchange rate from FRED, Portuguese pump prices with and without taxes from the European Commission Weekly Oil Bulletin, and gasoline and diesel reference prices from ENSE. Pass-through is estimated with an asymmetric distributed lag model by OLS with Newey-West standard errors. The full specification, regression tables and code are on <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener">GitHub</a>.</p>
+<p>Weekly data from January 2019 to September 2026. Brent crude and the EUR/USD exchange rate from FRED, Portuguese pump prices with and without taxes from the European Commission Weekly Oil Bulletin, and gasoline and diesel reference prices from ENSE. Pass-through is estimated with an asymmetric distributed lag model by OLS with Newey-West standard errors. I check the results without 2022 and with an asymmetric error correction model (Engle and Granger), and test the Monday forecast out of sample on 2025 and 2026. The full specification, regression tables and code are on <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener">GitHub</a>.</p>
 
 <p class="disclaimer">Personal project built with public data only. The views expressed are my own and do not represent ERSE.</p>
