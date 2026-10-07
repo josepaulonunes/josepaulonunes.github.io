@@ -1,14 +1,18 @@
 ---
 layout: default
-title: Rockets and Feathers | José Nunes
+title: Rockets and Feathers? | José Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Rockets and Feathers: Oil Price Pass-Through to Fuel Prices in Portugal</h1>
+<h1 class="page-title">Rockets and Feathers? How Oil Prices Reach the Pump in Portugal</h1>
 
 <p class="page-lead">
-When oil prices rise, do pump prices follow faster than when they fall? This "rockets and feathers" pattern is a long standing question in energy and competition policy. Using weekly data since 2019, this project tests it for gasoline and diesel in Portugal, separates the role of refining and wholesale markets from that of petrol stations, compares prices before and after taxes with Spain, and forecasts next Monday's pump price change. The short answer: petrol stations pass on rises and falls equally. The only clear asymmetry is diesel against crude oil, and it comes from the 2022 energy crisis.
+When oil gets more expensive, pump prices seem to go up straight away. When oil gets cheaper, they seem to take forever to come down. Economists call this "rockets and feathers". I tested whether it happens in Portugal with weekly data for gasoline and diesel since 2019, looking at each step from crude oil to the pump. I also compared Portugal with Spain and tried to predict next Monday's price change.
+</p>
+
+<p class="page-lead">
+Short answer: petrol stations pass on rises and falls in the same way. The only clear gap is diesel against crude oil, and it comes from the 2022 energy crisis.
 </p>
 
 <div class="project-links page-links">
@@ -49,17 +53,16 @@ window.addEventListener("resize", fitViz);
 <h2>Key findings</h2>
 
 <ul class="findings">
-  <li><strong>Diesel rises faster than it falls against crude oil.</strong> In the long run, a 1 cent rise in Brent raises the pre-tax diesel price by about 1.34 cents, while a 1 cent fall lowers it by only 0.80 cents (p = 0.047).</li>
-  <li><strong>But this comes from 2022.</strong> When I drop the 2022 energy crisis, the gap shrinks (1.08 vs 0.78) and is no longer significant (p = 0.29). Against the ENSE reference price the gap is not significant either.</li>
-  <li><strong>Petrol stations pass on rises and falls equally.</strong> From the ENSE reference price to the pump, diesel rises and falls are passed on almost the same (0.90 vs 0.85, p = 0.37). Falls reach the pump a week or two later, but by week 3 both are the same. Gasoline shows no asymmetry at any stage.</li>
-  <li><strong>High diesel margins are corrected fast, low ones slowly.</strong> An error correction model shows that when the retail margin is above its normal level, half of the gap closes in about 2 weeks. When it is below, it takes about 16 weeks. That is the opposite of what "rockets and feathers" would predict.</li>
-  <li><strong>Taxes make up about half of the price.</strong> On average since 2019, taxes are 49% of the price of a litre of diesel.</li>
-  <li><strong>Portugal vs Spain:</strong> fuel in Portugal costs 17.6 cents per litre more than in Spain for gasoline and 12.3 cents more for diesel, but the whole gap comes from taxes. Before taxes, Portuguese prices are 2 to 3 cents lower.</li>
-  <li><strong>Monday forecast:</strong> on 2025 and 2026 data, the model predicts Monday's pump price change with an average error of about 1 cent per litre. A "no change" forecast misses by 2 to 3 cents, and simply copying last week's change in the reference price misses by about 1.2 cents.</li>
+  <li><strong>Petrol stations pass on rises and falls equally.</strong> Against the ENSE reference price, a 1 cent rise in the cost raises the diesel pump price by 0.90 cents in the long run and a 1 cent fall lowers it by 0.85 cents (p = 0.37). For gasoline it is 0.78 both ways. Cuts take a week or two longer to reach the pump, but by week 3 the gap is gone.</li>
+  <li><strong>Diesel against crude oil is the only exception, and it comes from 2022.</strong> A 1 cent rise in Brent raises the diesel price before taxes by 1.34 cents, a fall lowers it by only 0.80 (p = 0.047). Without 2022, or with 4 or more weeks in the model, the difference is no longer significant. That year refined diesel became much more expensive than crude after the sanctions on Russia.</li>
+  <li><strong>High margins do not last, low ones do.</strong> When the diesel pump price is above its usual level compared with the reference price, half of the gap closes in about 2 weeks. When it is below, it takes about 16 weeks. That is the opposite of rockets and feathers.</li>
+  <li><strong>Taxes are about half of the price.</strong> On average since 2019, taxes are 49% of what you pay for a litre of diesel.</li>
+  <li><strong>Portugal is more expensive than Spain only because of taxes.</strong> The gap is 17.6 cents per litre for gasoline and 12.3 cents for diesel. Before taxes, Portugal is 2 to 3 cents cheaper.</li>
+  <li><strong>Monday's price change can be predicted quite well.</strong> Tested on 2025 and 2026, the model misses by about 1 cent per litre on average. Assuming no change misses by 2 to 3 cents, and copying last week's change in the reference price misses by about 1.2 cents.</li>
 </ul>
 
 <h2>Rockets and feathers, week by week</h2>
-<p>How much of a 1 cent cost change has reached the pump after each week. Red is a cost rise, blue a cost fall.</p>
+<p>How much of a 1 cent change in the cost has reached the pump after each week. Red is a rise, blue a fall. If prices were rockets and feathers, the red line would climb faster and end higher. Against the reference price, both lines end up in the same place.</p>
 <img class="figure" loading="lazy" src="/fuel-prices/cumulative_response.png" alt="Cumulative response of pump prices to cost rises and falls, week by week">
 
 <h2>What makes up the price of a litre of diesel</h2>
@@ -72,6 +75,6 @@ window.addEventListener("resize", fitViz);
 <img class="figure" loading="lazy" src="/fuel-prices/monday_forecast_diesel.png" alt="Monday forecast for diesel">
 
 <h2>Data and method</h2>
-<p>Weekly data from January 2019 to September 2026. Brent crude and the EUR/USD exchange rate from FRED, Portuguese pump prices with and without taxes from the European Commission Weekly Oil Bulletin, and gasoline and diesel reference prices from ENSE. Pass-through is estimated with an asymmetric distributed lag model by OLS with Newey-West standard errors. I check the results without 2022 and with an asymmetric error correction model (Engle and Granger), and test the Monday forecast out of sample on 2025 and 2026. The full specification, regression tables and code are on <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener">GitHub</a>.</p>
+<p>Weekly data from January 2019 to September 2026. Brent crude and the EUR/USD exchange rate from FRED, Portuguese pump prices with and without taxes from the European Commission Weekly Oil Bulletin, and gasoline and diesel reference prices from ENSE. Pass-through is estimated with an asymmetric distributed lag model by OLS with Newey-West standard errors. I check the results without 2022, with 1 to 6 weeks of lags and with an asymmetric error correction model (Engle and Granger), and test the Monday forecast out of sample on 2025 and 2026. The full specification, regression tables and code are on <a href="https://github.com/josepaulonunes/fuel-prices-portugal" target="_blank" rel="noopener">GitHub</a>.</p>
 
 <p class="disclaimer">Personal project built with public data only. The views expressed are my own and do not represent ERSE.</p>
