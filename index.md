@@ -51,8 +51,8 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
   <div class="project-card">
     <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
     <div class="project-body">
-      <h3><a href="/fuel-prices/">Rockets and Feathers: Oil Price Pass-Through to Fuel Prices</a></h3>
-      <p>Do pump prices rise faster than they fall when oil prices move, and is it refiners or petrol stations? A weekly asymmetric pass-through analysis of gasoline and diesel in Portugal since 2019, with a comparison to Spain and a forecast of next Monday's price change.</p>
+      <h3><a href="/fuel-prices/">Rockets and Feathers? How Oil Prices Reach the Pump in Portugal</a></h3>
+      <p>Do pump prices go up faster than they come down when oil prices move? Weekly data for gasoline and diesel in Portugal since 2019, each step from crude oil to the pump, a comparison with Spain and a forecast of next Monday's price change.</p>
       <div class="tags"><span>Python</span><span>pandas</span><span>statsmodels</span><span>Tableau</span></div>
       <div class="project-links">
         <a href="/fuel-prices/"><i class="fa-solid fa-file-lines"></i> Project page</a>
