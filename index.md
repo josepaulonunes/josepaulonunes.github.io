@@ -37,9 +37,9 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
   <div class="project-card">
     <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/duck_curve.png" alt="Average electricity price by hour of the day in Portugal"></a>
     <div class="project-body">
-      <h3><a href="/electricity-tracker/">Sun Down, Prices Up: How Wind and Solar Changed Electricity Prices</a></h3>
-      <p>As wind and solar grow, what happens to wholesale electricity prices, to the value of solar power and to the value of storage? Hourly data for Portugal since 2019, a regression with Newey-West standard errors, and a live app updated every day with tomorrow's prices and the best hours to store energy.</p>
-      <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>GitHub Actions</span></div>
+    <h3><a href="/electricity-tracker/">Sun Down, Prices Up: How Wind and Solar Are Reshaping Europe's Electricity Prices</a></h3>
+      <p>How are wind and solar changing electricity prices across Europe? Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, a regression for Portugal with Newey-West standard errors, and a live app with tomorrow's prices on a map of Europe, updated every day.</p>
+      <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="/electricity-tracker/"><i class="fa-solid fa-file-lines"></i> Project page</a>
         <a href="https://portugal-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
