@@ -68,4 +68,4 @@ document.getElementById("app-load").addEventListener("click", function () {
 <h2>Limits</h2>
 <p>The battery numbers are an upper bound: the battery buys in the cheapest hours and sells in the most expensive ones without checking the order of the hours, and network tariffs and wear are left out. The solar capture rate uses market prices only. The regression shows strong associations, not a clean causal effect, since it leaves out the daily gas price.</p>
 
-<p class="disclaimer">Personal project built with public data only. The views expressed are my own and do not represent ERSE.</p>
+<p class="disclaimer">Personal project using public data. Views are my own.</p>
