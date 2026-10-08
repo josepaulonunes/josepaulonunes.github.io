@@ -5,7 +5,7 @@ title: Sun Down, Prices Up | José Nunes
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Sun Down, Prices Up: How Wind and Solar Are Reshaping Europe's Electricity Prices</h1>
+<h1 class="page-title">Sun Down, Prices Up: Wind, Solar and Europe's Electricity Prices</h1>
 
 <p class="page-lead">
 More wind and solar should mean cheaper electricity, and on average it does. But it also means very cheap middays, expensive evenings and more and more hours where producers pay to sell their power. I wanted to know how big these effects really are, so I built a tracker that downloads hourly day-ahead prices for 26 European markets every day, with a closer look at Portugal, where I work on energy regulation.
@@ -16,9 +16,25 @@ Short answer: negative prices went from rare to routine in a few years, solar no
 </p>
 
 <div class="project-links page-links">
-  <a href="https://portugal-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Open the live app</a>
-  <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code and full results</a>
+  <a href="https://european-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Open the live app</a>
+  <a href="https://github.com/josepaulonunes/european-electricity-tracker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code and full results</a>
 </div>
+
+<h2>Live app</h2>
+
+<div class="viz-box" id="app-box">
+  <img class="figure viz-preview" src="/electricity-tracker/app_preview.png" alt="Map of tomorrow's electricity prices across Europe">
+  <button type="button" class="viz-load" id="app-load"><i class="fa-solid fa-hand-pointer"></i> Load the live app</button>
+</div>
+
+<script>
+// Show a light image first; load the Streamlit app only when the visitor asks for it
+document.getElementById("app-load").addEventListener("click", function () {
+  document.getElementById("app-box").innerHTML = '<iframe src="https://european-electricity-tracker.streamlit.app/?embed=true" ' +
+    'title="European Electricity Tracker" style="width:100%; height:900px; border:1px solid #e3e3e3; border-radius:8px;"></iframe>';
+});
+</script>
+<p class="viz-note">The app runs on Streamlit Community Cloud and updates every afternoon. If nobody has opened it for a while, it can take a few seconds to wake up. On a phone, it works best <a href="https://european-electricity-tracker.streamlit.app/" target="_blank" rel="noopener">in its own page</a>.</p>
 
 <h2>Key findings</h2>
 
@@ -47,7 +63,7 @@ Short answer: negative prices went from rare to routine in a few years, solar no
 <img class="figure" loading="lazy" src="/electricity-tracker/price_by_renewable_share.png" alt="Average price in Portugal by share of wind and solar">
 
 <h2>Data and method</h2>
-<p>Hourly day-ahead prices for 26 bidding zones since 2019, and solar, wind and consumption for the 15 largest, come from the ENTSO-E Transparency Platform API. For Portugal I also use the REN DataHub API (prices until June 2026 and production by source every 15 minutes) and OMIE's daily market files, and I checked that the three sources give the same Portuguese prices. The data is cleaned with pandas, stored as CSV files and loaded into SQLite for the analysis with SQL and Python. The solar capture rate is the average price weighted by solar production, divided by the simple average price. The Portuguese regression is an OLS of the hourly price on the share of wind and solar, the share of hydro, demand and year fixed effects, with Newey-West (HAC) standard errors. Every afternoon GitHub Actions runs two Python scripts that add the newest data, and the app is built with Streamlit and Plotly. Countries with several market zones are shown with one of them (Northern Italy, Western Denmark, Stockholm and Oslo). The code is on <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener">GitHub</a>.</p>
+<p>Hourly day-ahead prices for 26 bidding zones since 2019, and solar, wind and consumption for the 15 largest, come from the ENTSO-E Transparency Platform API. For Portugal I also use the REN DataHub API (prices until June 2026 and production by source every 15 minutes) and OMIE's daily market files, and I checked that the three sources give the same Portuguese prices. The data is cleaned with pandas, stored as CSV files and loaded into SQLite for the analysis with SQL and Python. The solar capture rate is the average price weighted by solar production, divided by the simple average price. The Portuguese regression is an OLS of the hourly price on the share of wind and solar, the share of hydro, demand and year fixed effects, with Newey-West (HAC) standard errors. Every afternoon GitHub Actions runs two Python scripts that add the newest data, and the app is built with Streamlit and Plotly. Countries with several market zones are shown with one of them (Northern Italy, Western Denmark, Stockholm and Oslo). The code is on <a href="https://github.com/josepaulonunes/european-electricity-tracker" target="_blank" rel="noopener">GitHub</a>.</p>
 
 <h2>Limits</h2>
 <p>The battery numbers are an upper bound: the battery buys in the cheapest hours and sells in the most expensive ones without checking the order of the hours, and network tariffs and wear are left out. The solar capture rate uses market prices only. The regression shows strong associations, not a clean causal effect, since it leaves out the daily gas price.</p>
