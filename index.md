@@ -35,15 +35,15 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
 <div class="projects">
 
   <div class="project-card">
-    <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/duck_curve.png" alt="Average electricity price by hour of the day in Portugal"></a>
+    <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/app_preview.png" alt="Map of tomorrow's electricity prices across Europe"></a>
     <div class="project-body">
-    <h3><a href="/electricity-tracker/">Sun Down, Prices Up: How Wind and Solar Are Reshaping Europe's Electricity Prices</a></h3>
+    <h3><a href="/electricity-tracker/">Sun Down, Prices Up: Wind, Solar and Europe's Electricity Prices</a></h3>
       <p>How are wind and solar changing electricity prices across Europe? Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, a regression for Portugal with Newey-West standard errors, and a live app with tomorrow's prices on a map of Europe, updated every day.</p>
       <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="/electricity-tracker/"><i class="fa-solid fa-file-lines"></i> Project page</a>
-        <a href="https://portugal-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
-        <a href="https://github.com/josepaulonunes/portugal-electricity-tracker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+        <a href="https://european-electricity-tracker.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
+        <a href="https://github.com/josepaulonunes/european-electricity-tracker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
       </div>
     </div>
   </div>
