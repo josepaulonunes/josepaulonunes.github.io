@@ -64,7 +64,7 @@ I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regula
 
 </div>
 
-<h2 id="academic">Academic Work</h2>
+<h2 id="academic">Academic Research</h2>
 
 <p class="section-note">Written during my bachelor's degree.</p>
 
