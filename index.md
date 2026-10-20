@@ -9,7 +9,7 @@ title: José Nunes
 
   <div class="profile-text">
 
-    <h1>José Nunes</h1>
+    <h1>José Sá Nunes</h1>
 
     <div class="subtitle">
       <p>BSc in Economics, Nova School of Business and Economics</p>
@@ -27,7 +27,9 @@ title: José Nunes
 </div>
 
 <p class="blurb">
-I'm an Economist Trainee at ERSE, Portugal's energy regulator, working on regulatory impact assessments and economic analysis across the electricity, fuel and natural gas sectors. My interests are in energy economics, macroeconomics and finance.
+Economics graduate from Nova SBE, currently working in regulatory economics at ERSE, Portugal's energy regulator.
+
+Interested in energy economics, macroeconomics, financial markets and policy research.
 </p>
 
 <h2 id="projects">Projects</h2>
