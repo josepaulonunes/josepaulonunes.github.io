@@ -27,9 +27,7 @@ title: José Nunes
 </div>
 
 <p class="blurb">
-Economics graduate from Nova SBE, currently working in regulatory economics at ERSE, Portugal's energy regulator.
-
-Interested in energy economics, macroeconomics, financial markets and policy research.
+Welcome! I work in energy regulation at ERSE and I’m curious about how energy markets, macroeconomics, finance and public policy connect. This is a space for my papers, research and data projects, with room for whatever comes next.
 </p>
 
 <h2 id="projects">Projects</h2>
