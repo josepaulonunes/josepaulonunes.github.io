@@ -5,8 +5,8 @@ title: José de Sá Nunes
 
 <div class="profile-header">
 
-  <img class="profile-picture" src="/images/profile.jpg" alt="José Nunes">
-
+  <img class="profile-picture" src="/images/profile.jpg" alt="José de Sá Nunes">
+  
   <div class="profile-text">
 
     <h1>José de Sá Nunes</h1>
