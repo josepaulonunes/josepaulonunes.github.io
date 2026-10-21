@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rockets and Feathers? | José Nunes
+title: Rockets and Feathers? | José de Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
