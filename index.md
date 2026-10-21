@@ -1,6 +1,6 @@
 ---
 layout: default
-title: José Nunes
+title: José de Sá Nunes
 ---
 
 <div class="profile-header">
@@ -17,7 +17,7 @@ title: José Nunes
     </div>
 
     <div class="social-links">
-      <a href="mailto:josepnunes3@gmail.com" class="email-link" title="josepnunes3@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+      <a href="mailto:jose.sanunes@outlook.com" class="email-link" title="jose.sanunes@outlook.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
       <a href="https://linkedin.com/in/josepnunes/"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://github.com/josepaulonunes"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
     </div>
