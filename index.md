@@ -9,7 +9,7 @@ title: José Nunes
 
   <div class="profile-text">
 
-    <h1>José Sá Nunes</h1>
+    <h1>José de Sá Nunes</h1>
 
     <div class="subtitle">
       <p>BSc in Economics, Nova School of Business and Economics</p>
