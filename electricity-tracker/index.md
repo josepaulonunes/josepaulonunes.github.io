@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sun Down, Prices Up | José de Sá Nunes
+title: Sun Down, Prices Up | José Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
