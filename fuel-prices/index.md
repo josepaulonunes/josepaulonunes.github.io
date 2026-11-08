@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Rockets and Feathers? | José Sá Nunes
+title: Fuel Prices in Portugal | José Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Rockets and Feathers? How Oil Prices Reach the Pump in Portugal</h1>
+<h1 class="page-title">Fuel Prices in Portugal</h1>
 
 <p class="page-lead">
 When oil gets more expensive, pump prices seem to go up straight away. When oil gets cheaper, they seem to take forever to come down. Economists call this "rockets and feathers". I tested whether it happens in Portugal with weekly data for gasoline and diesel since 2019, looking at each step from crude oil to the pump. I also compared Portugal with Spain and tried to predict next Monday's price change.
