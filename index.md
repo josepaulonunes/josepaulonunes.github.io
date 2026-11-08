@@ -49,6 +49,19 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
   </div>
 
   <div class="project-card">
+    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my ETF portfolio"></a>
+    <div class="project-body">
+      <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Lab</a></h3>
+      <p>My own investment tools in Python: a dashboard that tracks my ETF portfolio against its targets, a company valuation model (DCF, reverse DCF, sensitivity) and a screener for AI, chips, power and nuclear companies. In January 2028 I compare the screener's picks with the ETFs to see if picking stocks is worth it.</p>
+      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span></div>
+      <div class="project-links">
+        <a href="https://josenunes-investment-lab.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
+        <a href="https://github.com/josepaulonunes/investment-lab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
     <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
     <div class="project-body">
       <h3><a href="/fuel-prices/">Fuel Prices in Portugal</a></h3>
@@ -61,18 +74,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
       </div>
     </div>
   </div>
-  <div class="project-card">
-    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my ETF portfolio"></a>
-    <div class="project-body">
-      <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Lab</a></h3>
-      <p>My own investment tools in Python: a dashboard that tracks my ETF portfolio against its targets, a company valuation model (DCF, reverse DCF, sensitivity) and a screener for AI, chips, power and nuclear companies. In January 2028 I compare the screener's picks with the ETFs to see if picking stocks is worth it.</p>
-      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span></div>
-      <div class="project-links">
-        <a href="https://josenunes-investment-lab.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
-        <a href="https://github.com/josepaulonunes/investment-lab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 <h2 id="academic">Academic Research</h2>
