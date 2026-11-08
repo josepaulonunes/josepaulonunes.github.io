@@ -37,7 +37,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
   <div class="project-card">
     <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/app_thumbnail.png" alt="Map of tomorrow's electricity prices across Europe"></a>
     <div class="project-body">
-    <h3><a href="/electricity-tracker/">Sun Down, Prices Up: Wind, Solar and Europe's Electricity Prices</a></h3>
+    <h3><a href="/electricity-tracker/">Electricity Prices in Europe</a></h3>
       <p>How are wind and solar changing electricity prices across Europe? Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, a regression for Portugal with Newey-West standard errors, and a live app with tomorrow's prices on a map of Europe, updated every day.</p>
       <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
@@ -51,7 +51,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
   <div class="project-card">
     <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
     <div class="project-body">
-      <h3><a href="/fuel-prices/">Rockets and Feathers? How Oil Prices Reach the Pump in Portugal</a></h3>
+      <h3><a href="/fuel-prices/">Fuel Prices in Portugal</a></h3>
       <p>Do pump prices go up faster than they come down when oil prices move? Weekly data for gasoline and diesel in Portugal since 2019, each step from crude oil to the pump, a comparison with Spain and a forecast of next Monday's price change.</p>
       <div class="tags"><span>Python</span><span>pandas</span><span>statsmodels</span><span>Tableau</span></div>
       <div class="project-links">
