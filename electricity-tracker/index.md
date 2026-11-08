@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Sun Down, Prices Up | José Sá Nunes
+title: Electricity Prices in Europe | José Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
 
-<h1 class="page-title">Sun Down, Prices Up: Wind, Solar and Europe's Electricity Prices</h1>
+<h1 class="page-title">Electricity Prices in Europe</h1>
 
 <p class="page-lead">
 More wind and solar should mean cheaper electricity, and on average it does. But it also means very cheap middays, expensive evenings and more and more hours where producers pay to sell their power. I wanted to know how big these effects really are, so I built a tracker that downloads hourly day-ahead prices for 26 European markets every day, with a closer look at Portugal, where I work on energy regulation.
