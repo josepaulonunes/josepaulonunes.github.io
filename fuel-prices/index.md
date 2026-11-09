@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fuel Prices in Portugal | José Sá Nunes
+title: Fuel Prices in Portugal | José de Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>
