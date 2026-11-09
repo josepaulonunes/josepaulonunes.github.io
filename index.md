@@ -1,6 +1,6 @@
 ---
 layout: default
-title: José Sá Nunes
+title: José de Sá Nunes
 ---
 
 <div class="profile-header">
@@ -9,7 +9,7 @@ title: José Sá Nunes
   
   <div class="profile-text">
 
-    <h1>José Sá Nunes</h1>
+    <h1>José de Sá Nunes</h1>
 
     <div class="subtitle">
       <p>BSc in Economics, Nova School of Business and Economics</p>
@@ -27,7 +27,7 @@ title: José Sá Nunes
 </div>
 
 <p class="blurb">
-Welcome! I work in energy regulation at ERSE and I’m curious about how energy markets, macroeconomics, finance and public policy connect. This is a space for my papers, research and data projects, with room for whatever comes next.
+I work in energy regulation at ERSE. I'm interested in energy markets, macroeconomics and finance. Here you'll find my data projects and the papers I wrote during my degree.
 </p>
 
 <h2 id="projects">Projects</h2>
@@ -38,7 +38,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
     <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/app_thumbnail.png" alt="Map of tomorrow's electricity prices across Europe"></a>
     <div class="project-body">
     <h3><a href="/electricity-tracker/">Electricity Prices in Europe</a></h3>
-      <p>How are wind and solar changing electricity prices across Europe? Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, a regression for Portugal with Newey-West standard errors, and a live app with tomorrow's prices on a map of Europe, updated every day.</p>
+      <p>How wind and solar are changing electricity prices in Europe. Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, and a live map with tomorrow's prices, updated every day.</p>
       <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="/electricity-tracker/"><i class="fa-solid fa-file-lines"></i> Project page</a>
@@ -52,7 +52,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
     <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my ETF portfolio"></a>
     <div class="project-body">
       <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Lab</a></h3>
-      <p>My own investment tools in Python: a dashboard that tracks my ETF portfolio against its targets, a company valuation model (DCF, reverse DCF, sensitivity) and a screener for AI, chips, power and nuclear companies. In January 2028 I compare the screener's picks with the ETFs to see if picking stocks is worth it.</p>
+      <p>A live dashboard of my ETF portfolio, shown in percentages, with the rules I follow. Also a company valuation model (DCF) and a stock screener that I'll test against my ETFs in January 2028.</p>
       <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span></div>
       <div class="project-links">
         <a href="https://josenunes-investment-lab.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
@@ -65,7 +65,7 @@ Welcome! I work in energy regulation at ERSE and I’m curious about how energy 
     <a href="/fuel-prices/" class="project-thumb"><img src="/fuel-prices/thumbnail.jpg" alt="Fuel prices in Portugal dashboard"></a>
     <div class="project-body">
       <h3><a href="/fuel-prices/">Fuel Prices in Portugal</a></h3>
-      <p>Do pump prices go up faster than they come down when oil prices move? Weekly data for gasoline and diesel in Portugal since 2019, each step from crude oil to the pump, a comparison with Spain and a forecast of next Monday's price change.</p>
+      <p>Do pump prices rise faster than they fall? Weekly gasoline and diesel prices in Portugal since 2019, from crude oil to the pump, compared with Spain, plus a forecast for next Monday.</p>
       <div class="tags"><span>Python</span><span>pandas</span><span>statsmodels</span><span>Tableau</span></div>
       <div class="project-links">
         <a href="/fuel-prices/"><i class="fa-solid fa-file-lines"></i> Project page</a>
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Email: copy the address and show it (many people have no mail app, so mailto alone does nothing)
   document.querySelectorAll(".email-link").forEach(function (el) {
     el.addEventListener("click", function () {
-      var addr = "josepnunes3@gmail.com";
+      var addr = "jose.sanunes@outlook.com";
       if (navigator.clipboard) { navigator.clipboard.writeText(addr).catch(function () {}); }
       var label = el.querySelector("span");
       label.textContent = "Copied: " + addr;
