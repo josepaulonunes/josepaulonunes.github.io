@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Electricity Prices in Europe | José de Sá Nunes
+title: Electricity Prices in Europe | José Sá Nunes
 ---
 
 <p class="back-link"><a href="/#projects">&larr; Back to projects</a></p>

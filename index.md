@@ -1,15 +1,15 @@
 ---
 layout: default
-title: José de Sá Nunes
+title: José Sá Nunes
 ---
 
 <div class="profile-header">
 
-  <img class="profile-picture" src="/images/profile.jpg" alt="José de Sá Nunes">
+  <img class="profile-picture" src="/images/profile.jpg" alt="José Sá Nunes">
   
   <div class="profile-text">
 
-    <h1>José de Sá Nunes</h1>
+    <h1>José Sá Nunes</h1>
 
     <div class="subtitle">
       <p>BSc in Economics, Nova School of Business and Economics</p>
