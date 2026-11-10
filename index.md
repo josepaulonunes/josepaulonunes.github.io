@@ -49,11 +49,11 @@ I work in energy regulation at ERSE. I'm interested in energy markets, macroecon
   </div>
 
   <div class="project-card">
-    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my ETF portfolio"></a>
+    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my portfolio"></a>
     <div class="project-body">
       <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Lab</a></h3>
-      <p>A live dashboard of my ETF portfolio, shown in percentages, with the rules I follow. Also a company valuation model (DCF) and a stock screener that I'll test against my ETFs in January 2028.</p>
-      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span></div>
+      <p>My real portfolio, live and in percentages: 60% in a global ETF, 10% in small caps and 30% in bets on the future (5 stocks and 4 theme ETFs). A screener picks stocks on moat, growth and fair price, and a weekly check tells me when to buy, stop buying or review a stock.</p>
+      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="https://josenunes-investment-lab.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
         <a href="https://github.com/josepaulonunes/investment-lab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
