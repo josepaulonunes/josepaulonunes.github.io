@@ -49,11 +49,11 @@ I work in energy regulation at ERSE. I'm interested in energy markets, macroecon
   </div>
 
   <div class="project-card">
-    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Dashboard of my ETF portfolio"></a>
+    <a href="https://josenunes-investment-lab.streamlit.app/" class="project-thumb"><img src="/images/investment-portfolio.png" alt="My portfolio split and how far each of my 10 stocks is from my fair price"></a>
     <div class="project-body">
-      <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Lab</a></h3>
-      <p>A live dashboard of my ETF portfolio, shown in percentages, with the rules I follow. Also a company valuation model (DCF) and a stock screener that I'll test against my ETFs in January 2028.</p>
-      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span></div>
+      <h3><a href="https://josenunes-investment-lab.streamlit.app/">Investment Portfolio</a></h3>
+      <p>My real portfolio, live and in percentages: 55% in a global ETF and 45% in 10 companies I believe in, from AI chips to jet engines. I value each one with the same simple DCF and only buy at a fair price or below. A daily check tells me when a stock is cheap enough to buy more, too expensive to keep buying, or when the business is getting worse.</p>
+      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="https://josenunes-investment-lab.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
         <a href="https://github.com/josepaulonunes/investment-lab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
