@@ -35,10 +35,10 @@ I work in energy regulation at ERSE. I'm interested in energy markets, macroecon
 <div class="projects">
 
   <div class="project-card">
-    <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/app_thumbnail.png" alt="Map of tomorrow's electricity prices across Europe"></a>
+    <a href="/electricity-tracker/" class="project-thumb"><img src="/electricity-tracker/card.png" alt="Average electricity price by hour of the day in Portugal: flat in 2019, very low at midday and high in the evening in 2025"></a>
     <div class="project-body">
     <h3><a href="/electricity-tracker/">Electricity Prices in Europe</a></h3>
-      <p>How wind and solar are changing electricity prices in Europe. Hourly prices for 26 markets since 2019, what solar and batteries are worth in each country, and a live map with tomorrow's prices, updated every day.</p>
+      <p>Solar is making midday power cheap and evenings expensive. I track day-ahead prices in 26 European markets every day to see how far it goes: hours with a negative price went from 829 in 2019 to 7,744 in 2025, and solar now earns about half the average price in most countries. Comes with a live map of tomorrow's prices.</p>
       <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>statsmodels</span><span>Streamlit</span><span>Plotly</span><span>GitHub Actions</span></div>
       <div class="project-links">
         <a href="/electricity-tracker/"><i class="fa-solid fa-file-lines"></i> Project page</a>
