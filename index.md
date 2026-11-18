@@ -49,11 +49,11 @@ I work in energy regulation at ERSE. I'm interested in energy markets, macroecon
   </div>
 
   <div class="project-card">
-    <a href="https://investment-lab-josenunes.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Today's price of each stock in my monthly plan compared with my fair value, with the range from the bear to the bull scenario"></a>
+    <a href="https://investment-lab-josenunes.streamlit.app/" class="project-thumb"><img src="/images/investment-lab.png" alt="Today's price of my priority stocks compared with the base value of my DCF, with the range from the bear to the bull scenario"></a>
     <div class="project-body">
       <h3><a href="https://investment-lab-josenunes.streamlit.app/">Investment Lab</a></h3>
-      <p>How I invest every month. Each company I follow has its own DCF in Excel, built the way banks do it: a sector beta from similar companies, three scenarios, a reverse DCF and the multiples of its peers. A stock only gets money when its price is close to its fair value. The app shows my real portfolio in percentages, where this month's money goes and how far each stock is from its fair value.</p>
-      <div class="tags"><span>Excel</span><span>DCF</span><span>Python</span><span>pandas</span><span>Streamlit</span><span>Plotly</span></div>
+      <p>How I pick stocks. Every Monday a script ranks 64 large companies with pass or fail gates and 18 criteria, where analyst estimate revisions count the most. Each company I care about has its own 10 year DCF with bear, base and bull cases and price alerts. Money only goes into a stock when the analysts and my valuation agree; otherwise it waits. A ghost portfolio follows the rules on paper to check if they actually beat a world ETF.</p>
+      <div class="tags"><span>Python</span><span>pandas</span><span>yfinance</span><span>Excel</span><span>DCF</span><span>Streamlit</span><span>Plotly</span></div>
       <div class="project-links">
         <a href="https://investment-lab-josenunes.streamlit.app/" target="_blank" rel="noopener"><i class="fa-solid fa-chart-line"></i> Live app</a>
         <a href="https://github.com/josepaulonunes/investment-lab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
